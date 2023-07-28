@@ -1,0 +1,95 @@
+.login-contianer {
+//   background-color: orange;
+  padding: 10vh 10% 5vh 10%;
+  text-align: left;
+
+  .login-header--sub-text {
+    font-weight: 700;
+    color: rgb(135, 134, 134);
+  }
+
+  .login-option {
+    width: 100%;
+
+    .login-option--text {
+      padding-top: 3vh;
+      font-size: large;
+    }
+
+    .login-option--options {
+      text-align: center;
+      color: rgb(135, 134, 134);
+      font-size: large;
+      font-weight: 500;
+      cursor: pointer;
+      padding-top: 3vh;
+      padding-bottom: 3vh;
+
+      .login-option--cover {
+        position: absolute;
+        background-color: #fafcf8;
+        width: 100%;
+        height: 40%;
+        bottom: -40%;
+      }
+    }
+
+    .user-active {
+      border-bottom: solid 2px #fafcf8;
+      z-index: 10;
+      background-color: #fafcf8;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      color: #050307;
+      transition: 200ms;
+    }
+
+    .gym-active {
+      border-bottom: solid 2px #fafcf8;
+      z-index: 10;
+      background-color: #fafcf8;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      color: #050307;
+      transition: 200ms;
+    }
+  }
+
+  .login-form--container {
+    margin-top: -1px;
+    padding: 5vh 5% 5vh 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fafcf8;
+
+    .form-utils {
+      display: flex;
+      justify-content: space-between;
+      padding: 2vh 0 4vh 0;
+
+      .form-utils--forgot-password {
+        color: orange;
+        cursor: pointer;
+      }
+    }
+
+    .btn--container {
+      text-align: right;
+
+      .ant-btn-primary {
+        height: 50px;
+        width: 110px;
+      }
+    }
+  }
+
+  .login-signup--switch {
+    margin-top: 5vh;
+    font-weight: 400;
+    color: rgb(135, 134, 134);
+    text-align: center;
+
+    .login-signup--btn {
+        font-weight: 500;
+        color: orange;
+        text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  color: #050307;
+  background-color: rgb(132, 132, 132);
+  min-height: 100vh;
+
+  .page-container {
+    margin: auto;
+    max-width: 800px;
+    background-color: #fafcf8;
+    min-height: 100vh;
+  }
+
+  // common stylings
+
+  // Button-primary
+  .btn--container {
+    .ant-btn-primary {
+      background: rgb(255, 218, 0);
+      background: linear-gradient(
+        90deg,
+        rgba(255, 218, 0, 1) 0%,
+        rgba(255, 165, 0, 1) 40%,
+        rgba(255, 165, 0, 1) 100%
+      );
+      border-radius: 25px;
+      font-weight: 500;
+    }
+    .ant-btn-primary:hover {
+      opacity: 60%;
+      transition: 100ms;
+    }
+    .ant-btn-primary:active {
+      opacity: 100%;
+      transition: 100ms;
+    }
+  }
+
+  // Form field styling
+  .input-field {
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 2px rgb(175, 175, 175);
+    background-color: #fafcf8;
+    margin: 10px 0 10px 0;
+
+    .ant-input {
+      background-color: #fafcf8;
+      padding-left: 12px;
+    }
+    //   .ant-input::placeholder {
+    //     // color: transparent;
+    //   }
+  }
+  // .form--common {
+  //   .ant-form-item-required::after {
+  //     content: "" !important;
+  //   }
+  //   .ant-form-item-label {
+  //     position: absolute;
+  //     padding-left: 40px;
+  //     margin-top: -10px;
+  //     background-color: aqua;
+
+  //     padding-top: 18px;
+
+  //     .input-label {
+  //       color: rgb(132, 132, 132);
+  //       z-index: 20;
+
+  //       font-size: 16px;
+  //     }
+  //   }
+  // }
+
+  // .ant-input:placeholder-shown ~ .form--common {
+  //   .ant-form-item-label {
+  //     padding-top: 0px;
+  //     background-color: green;
+
+  //     .input-label {
+  //       font-size: 14px;
+  //     }
+  //   }
+  // }
+}
